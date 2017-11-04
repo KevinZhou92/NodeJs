@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const hbs = require('hbs');
 
+const port = process.env.PORT || 8080;
 // this will return an instance of a web server
 var app = express();
 
@@ -53,6 +54,6 @@ app.get('/bad', (req, res) => {
     });
 });
 // activate the app to listen on port 8080 of local machine
-app.listen(8080, () => {
-    console.log('Starting listening on 8080...');
+app.listen(port, () => {
+    console.log(`Starting listening on ${port}...`);
 });
