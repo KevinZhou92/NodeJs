@@ -28,21 +28,24 @@ var removeNote = (title) => {
   saveNote(filterNotes);
   return filterNotes.length !== notes.length;
 };
+
 var saveNote = (notes) => {
     fs.writeFileSync('notes-data.json', JSON.stringify(notes));
 };
+
 var getAll = () => {
   return fetchNotes();
 };
+
 var fetchNotes = () => {
   try {
-    debugger;
     var notes = fs.readFileSync('notes-data.json');
     return JSON.parse(notes);
   } catch(e) {
     return [];
   }
 };
+
 var logNote = (note) => {
   console.log('------');
   console.log(`Note Title: ${note.title}`);
