@@ -27,7 +27,6 @@ axios.get(encodedAddressUrl).then((response) => {
     var weatherUrl = `https://api.darksky.net/forecast/b2cfa13bfbbe0ddb0df58a9e5bf84fca/${lat},${lng}`;
     return axios.get(weatherUrl);
 }).then((response) => {
-    debugger;
     var temperature = response.data.currently.temperature;
     var apparentTemperature = response.data.currently.apparentTemperature;
     var hourlySummary = response.data.hourly.summary;

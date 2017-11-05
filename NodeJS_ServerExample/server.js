@@ -53,6 +53,13 @@ app.get('/bad', (req, res) => {
         Error: 'Unable to fetch data!'
     });
 });
+
+app.get('/projects', (req, res) => {
+    res.render('projects', {
+        pageTitle: 'Projects',
+        welcomeMessage: 'There are all the projects i\'ve done',
+    });
+});
 // activate the app to listen on port 8080 of local machine
 app.listen(port, () => {
     console.log(`Starting listening on ${port}...`);
