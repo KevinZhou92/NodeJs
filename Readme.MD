@@ -5,57 +5,26 @@
 </p>
 <p align="center">
   <a title="CII Best Practices" href="https://bestpractices.coreinfrastructure.org/projects/29"><img src="https://bestpractices.coreinfrastructure.org/projects/29/badge"></a>
+  <img src="https://img.shields.io/travis/rust-lang/rust.svg">
+  <img src="https://img.shields.io/badge/npm-v5.5.1-blue.svg">
 </p>
 
-Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js
-uses an event-driven, non-blocking I/O model that makes it lightweight and
-efficient. The Node.js package ecosystem, [npm][], is the largest ecosystem of
+Node.js is a **JavaScript runtime** built on Chrome's V8 JavaScript engine. Node.js
+uses an **event-driven, non-blocking I/O model** that makes it lightweight and
+efficient. The Node.js package ecosystem, **npm**, is the largest ecosystem of
 open source libraries in the world.
 
-The Node.js project is supported by the
-[Node.js Foundation](https://nodejs.org/en/foundation/). Contributions,
-policies, and releases are managed under an
-[open governance model](./GOVERNANCE.md).
+# Introduction
 
-**This project is bound by a [Code of Conduct][].**
+This is a NodeJs related projects repo, it contains 5 mini projects covering the basics of nodejs, how to set up a server, how to write test cases and how to design rest api.
 
-If you need help using or installing Node.js, please use the
-[nodejs/help](https://github.com/nodejs/help) issue tracker.
+# Contents
 
+* [CLI_NotesApp](https://github.com/KevinZhou92/NodeJs/tree/master/CLI_NotesApp)
+* [CLI_WeatherApp](https://github.com/KevinZhou92/NodeJs/tree/master/CLI_WeatherApp)
+* [ServerExample](https://github.com/KevinZhou92/NodeJs/tree/master/ServerExample)
+* [Test_Suite](https://github.com/KevinZhou92/NodeJs/tree/master/Test_Suite)
+* [REST_API](https://github.com/KevinZhou92/NodeJs/tree/master/REST_API)
 
-# Table of Contents
-
-* [Resources for Newcomers](#resources-for-newcomers)
-* [Release Types](#release-types)
-  * [Download](#download)
-    * [Current and LTS Releases](#current-and-lts-releases)
-    * [Nightly Releases](#nightly-releases)
-    * [API Documentation](#api-documentation)
-  * [Verifying Binaries](#verifying-binaries)
-* [Building Node.js](#building-nodejs)
-  * [Security](#security)
-  * [Current Project Team Members](#current-project-team-members)
-    * [TSC (Technical Steering Committee)](#tsc-technical-steering-committee)
-    * [Collaborators](#collaborators)
-    * [Release Team](#release-team)
-
-## Resources for Newcomers
-
-### Official Resources
-
-* [Website][]
-* [Node.js Help][]
-* [Contributing to the project][]
-* IRC (node core development): [#node-dev on chat.freenode.net][]
-
-### Unofficial Resources
-
-* IRC (general questions): [#node.js on chat.freenode.net][]. Please see
-<http://nodeirc.info/> for more information regarding the `#node.js` IRC
-channel.
-
-_Please note that unofficial resources are neither managed by (nor necessarily
-endorsed by) the Node.js TSC. Specifically, such resources are not
-currently covered by the [Node.js Moderation Policy][] and the selection and
-actions of resource operators/moderators are not subject to TSC oversight._
-
+# Note:
+Feel free to contact me if find some mistakes.
