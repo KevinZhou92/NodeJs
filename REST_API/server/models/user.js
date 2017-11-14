@@ -108,6 +108,7 @@ UserSchema.pre('save', function (next) {
     bcrypt.genSalt(10, (err, salt) => {
       bcrypt.hash(user.password, salt, (err, hash) => {
         user.password = hash;
+        // we put next() inside the async call because we could only move to next step once the password is hashed
         next();
       });
     });
